@@ -1,12 +1,22 @@
-# Título del Proyecto
+# UploadFileDrivePHP
 
-_Acá va un párrafo que describa lo que es el proyecto_
+_Ejemplo para cargar archivos en drvie con PHP_
 
 ## Comenzando 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+<h4>Instalación en windows (servidor local)</h4>
+<hr>
+<ol>
+<li>Descargar los archivos fuentes del sistema</li>
+<li>Copiar y descomprimir el archivo en la carpeta c:\xampp\htdocs, al final tendras una carpeta llamada <strong>“simple_stock”</strong>, a la cual podrás acceder desde el navegador como: http://localhost/simple_stock/</li>
+<li>Crear una base de datos usando PHPMyAdmin accediendo a la url siguiente: http://localhost/phpmyadmin/</li>
+<li>Importar las tablas de la base de datos para ello vamos a buscar el archivo <strong>“simple_stock.sql”</strong> en el directorio root de nuestro sistema, una vez localizado procedemos a hacer la importación de los datos desde PHPMyAdmin</li>
+<li>Configurar los datos de conexión a la base de datos editando el archivo de configuración que se encuentra en la siguiente ruta: <strong>simple_stock/config/db.php</strong></li>
+<li>Vista web: http://localhost/simple_stock/</li>
+<li>Datos de acceso por defecto: usuario: <strong>admin</strong> y contraseña: <strong>admin</strong></li>
+</ol>
 
 
 ### Pre-requisitos 📋
