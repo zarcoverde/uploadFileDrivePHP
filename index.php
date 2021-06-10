@@ -9,7 +9,7 @@ Copyright (c) 2020 Divergente Soluciones Informaticas S.A.S
 /* === Referencia Api Gloogle Drive === */
 include './api-google/vendor/autoload.php';
 /* === Referenciamos credenciales generadas en https://console.cloud.google.com/ === */
-putenv('GOOGLE_APPLICATION_CREDENTIALS=uploadfiledrive-316414-8f2589b72f5e.json');
+putenv('GOOGLE_APPLICATION_CREDENTIALS=credenciales generadas');
 /* === Creamos un objeto de la clase Google_Client que fue instanciada === */
 $obj_client = new Google_Client();
 /* === Definimos el tipo de crendenciales que vamos a usar === */
@@ -26,7 +26,7 @@ try {
     /* === Nombre con el que vamos a guardar el archivo === */
     $obj_file->setName($file_path);
     /* === Indicar donde lo vamos a guardar === */
-    $obj_file->setParents(["1mpsxpzowkzzZ3Cfos0NlLgy3AgnklhzV"]);
+    $obj_file->setParents(["directorio creado"]);
     /* === Descripción archivo === */
     $obj_file->setDescription('Archivo cargado desde PHP');
     /* === Tipo de archivo === */
