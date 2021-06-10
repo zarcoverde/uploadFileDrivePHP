@@ -1,115 +1,49 @@
 # UploadFileDrivePHP
 
-_Ejemplo para cargar archivos en drvie con PHP_
+_Ejemplo para cargar archivos en google drive con PHP_
 
 ## Comenzando 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-<h4>Instalación en windows (servidor local)</h4>
+<h4>Instalación en windows (servidor local xampp)</h4>
 <hr>
 <ol>
-<li>Descargar los archivos fuentes del sistema</li>
-<li>Copiar y descomprimir el archivo en la carpeta c:\xampp\htdocs, al final tendras una carpeta llamada <strong>“simple_stock”</strong>, a la cual podrás acceder desde el navegador como: http://localhost/simple_stock/</li>
-<li>Crear una base de datos usando PHPMyAdmin accediendo a la url siguiente: http://localhost/phpmyadmin/</li>
-<li>Importar las tablas de la base de datos para ello vamos a buscar el archivo <strong>“simple_stock.sql”</strong> en el directorio root de nuestro sistema, una vez localizado procedemos a hacer la importación de los datos desde PHPMyAdmin</li>
-<li>Configurar los datos de conexión a la base de datos editando el archivo de configuración que se encuentra en la siguiente ruta: <strong>simple_stock/config/db.php</strong></li>
-<li>Vista web: http://localhost/simple_stock/</li>
-<li>Datos de acceso por defecto: usuario: <strong>admin</strong> y contraseña: <strong>admin</strong></li>
+<li>Clonar el repositorio en la carpeta c:\xampp\htdocs para esto abra una terminal y ejecute el siguiente comando git: git clone "URL que acabas de copiar, al final tendras una carpeta llamada <strong>“uploadFileDrivePHP”</strong>, a la cual podrás acceder desde el navegador como: http://localhost/uploadFileDrivePHP/</li>
+<li>Vista web: http://localhost/uploadFileDrivePHP/index.php</li>
 </ol>
-
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
-
-```
-Da un ejemplo
-```
+_PHP 7.4+_
+_Apache 2.4+_
+_google-api-php-client_
+_Cuenta google drive_
+_Certificado de seguridad web_
 
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+_Configuración requerida_
 
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
+_Imgresa a <li>Sitio web: http://console.cloud.google.com</li> crear proyecto que nos permita acceder a los archivos de google drive_
+_Selecionar proyecto, en el menu selecionar Api y Servicios -> panel -> biblioteca (Selecionamos Google Drive API)_
+_Habilitar api_
+_Selecionar Credenciales y damos click en CREAR CREDENCIALES, selecionamos cuenta de servicio y creamos una cuenta para aceder desde php_
+_Selecionar cuenta creada para agregar clave, indicamos que sera de tipo JSON la cual sera la clave privada para usar en php y subir los archivos a google drive_
+_Habilitar con la misma cuenta que tenemos en google drive (Crear carpeta)_
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+* [PHP](https://www.php.net/) - El lenguaje de programación usado
+* [Apache](https://apache.org/) - Servidor web
+* [CURL](https://curl.se/docs/caextract.html) - Usado para generar certificado de seguridad web
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
+* **John Fredy Urrego Urrego** - [zarcoverde](https://github.com/zarcoverde)
+* 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
-
-
-
+Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md]() para más detalles
 ---
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+⌨️ con ❤️ por [zarcoverde](https://github.com/zarcoverde) 😊
