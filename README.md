@@ -44,6 +44,6 @@ _Habilitar con la misma cuenta que tenemos en google drive (Crear carpeta)_
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md]() para más detalles
+Este proyecto está bajo la Licencia (MIT) - mira el archivo <code>LICENSE</code> para más detalles
 ---
 ⌨️ con ❤️ por [zarcoverde](https://github.com/zarcoverde) 😊
